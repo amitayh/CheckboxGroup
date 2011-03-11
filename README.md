@@ -7,6 +7,7 @@ a master is checked - all its slaves are checked as well.
 
 ### Syntax ###
 
+    #JS
     new CheckboxGroup(master, slaves)
 
 ### Arguments ###
