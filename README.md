@@ -1,14 +1,19 @@
 # CheckboxGroup #
 
-Creates a dependency between one checkbox (master) to one or more other checkboxes (slaves). When
-a master is checked - all its slaves are checked as well.
+Creates a dependency between one checkbox (master) to one or more other checkboxes (slaves).
+
+When a master is checked - all its slaves are checked as well.
+
+When a master is unchecked - all its slaves are unchecked as well.
+
+If one slave is unchecked - the master does not show checked until all slaves are checked.
 
 ## How to use ##
 
 ### Syntax ###
 
     #JS
-    new CheckboxGroup(master, slaves)
+    new CheckboxGroup(master, slaves);
 
 ### Arguments ###
 

@@ -16,7 +16,9 @@ provides:
 ...
 */
 
-var CheckboxGroup = new Class({
+(function($) {
+
+this.CheckboxGroup = new Class({
 
     Implements: Events,
 
@@ -41,3 +43,5 @@ var CheckboxGroup = new Class({
     }
 
 });
+
+})(document.id);
